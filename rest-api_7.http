@@ -40,3 +40,18 @@ Content-Type: application/json
 
 
 ###
+POST http://127.0.0.1:80/perform_query
+Accept: application/json
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "map",
+  "value1": "6",
+  "cmd2": "limit",
+  "value2": "4"
+}
+
+###
+GET http://127.0.0.1:80
+#Accept: text/html
